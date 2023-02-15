@@ -17,7 +17,7 @@ namespace TestLoader
         {
 
             Type instType = null;
-            dll = AssemblyLoadContext.Default.LoadFromAssemblyPath("C:\\repos\\GITHUB\\MCCDAQ_Wrapper\\MCCDAQ\\bin\\Debug\\net6.0-windows\\MCCDAQ_wrapper.dll");
+            dll = AssemblyLoadContext.Default.LoadFromAssemblyPath(Environment.CurrentDirectory + "\\MCCDAQ_wrapper.dll");
             AssemblyName[] ReferencedAssemblies = dll.GetReferencedAssemblies();
             Type[] types = dll.GetExportedTypes();
             //foreach (Type t in dll.GetExportedTypes())
