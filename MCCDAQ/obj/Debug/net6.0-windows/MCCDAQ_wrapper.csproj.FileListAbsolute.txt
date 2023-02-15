@@ -1,0 +1,17 @@
+C:\repos\GITHUB\MCCDAQ_Wrapper\MCCDAQ\bin\Debug\net6.0-windows\MCCDAQ_wrapper.deps.json
+C:\repos\GITHUB\MCCDAQ_Wrapper\MCCDAQ\bin\Debug\net6.0-windows\MCCDAQ_wrapper.dll
+C:\repos\GITHUB\MCCDAQ_Wrapper\MCCDAQ\bin\Debug\net6.0-windows\MCCDAQ_wrapper.pdb
+C:\repos\GITHUB\MCCDAQ_Wrapper\MCCDAQ\bin\Debug\net6.0-windows\MccDaq.dll
+C:\repos\GITHUB\MCCDAQ_Wrapper\MCCDAQ\bin\Debug\net6.0-windows\MccDaq.xml
+C:\repos\GITHUB\MCCDAQ_Wrapper\MCCDAQ\obj\Debug\net6.0-windows\MCCDAQ_wrapper.csproj.AssemblyReference.cache
+C:\repos\GITHUB\MCCDAQ_Wrapper\MCCDAQ\obj\Debug\net6.0-windows\Inst_TESEQ_PS5740.Panel.resources
+C:\repos\GITHUB\MCCDAQ_Wrapper\MCCDAQ\obj\Debug\net6.0-windows\MCCDAQ_wrapper.csproj.GenerateResource.cache
+C:\repos\GITHUB\MCCDAQ_Wrapper\MCCDAQ\obj\Debug\net6.0-windows\MCCDAQ_wrapper.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\GITHUB\MCCDAQ_Wrapper\MCCDAQ\obj\Debug\net6.0-windows\MCCDAQ_wrapper.AssemblyInfoInputs.cache
+C:\repos\GITHUB\MCCDAQ_Wrapper\MCCDAQ\obj\Debug\net6.0-windows\MCCDAQ_wrapper.AssemblyInfo.cs
+C:\repos\GITHUB\MCCDAQ_Wrapper\MCCDAQ\obj\Debug\net6.0-windows\MCCDAQ_wrapper.csproj.CoreCompileInputs.cache
+C:\repos\GITHUB\MCCDAQ_Wrapper\MCCDAQ\obj\Debug\net6.0-windows\MCCDAQ_wrapper.csproj.CopyComplete
+C:\repos\GITHUB\MCCDAQ_Wrapper\MCCDAQ\obj\Debug\net6.0-windows\MCCDAQ_wrapper.dll
+C:\repos\GITHUB\MCCDAQ_Wrapper\MCCDAQ\obj\Debug\net6.0-windows\refint\MCCDAQ_wrapper.dll
+C:\repos\GITHUB\MCCDAQ_Wrapper\MCCDAQ\obj\Debug\net6.0-windows\MCCDAQ_wrapper.pdb
+C:\repos\GITHUB\MCCDAQ_Wrapper\MCCDAQ\obj\Debug\net6.0-windows\ref\MCCDAQ_wrapper.dll
