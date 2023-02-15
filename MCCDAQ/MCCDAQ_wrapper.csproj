@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net6.0-windows</TargetFrameworks>
+    <Configurations>Debug;Release</Configurations>
+    <OutputType>Library</OutputType>
+    <Platforms>AnyCPU</Platforms>
+    <UseWindowsForms>true</UseWindowsForms>
+	  <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+	  <VersionPrefix>1.0.2</VersionPrefix>
+	  <VersionSuffix>unreleased</VersionSuffix>
+
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MccDaq">
+      <HintPath>C:\Program Files (x86)\Measurement Computing\DAQ\MccDaq.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

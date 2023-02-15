@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <!--Remove this include-->
+    <Reference Include="MCCDAQ_wrapper">
+      <HintPath>..\MCCDAQ\bin\Debug\net6.0-windows\MCCDAQ_wrapper.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
