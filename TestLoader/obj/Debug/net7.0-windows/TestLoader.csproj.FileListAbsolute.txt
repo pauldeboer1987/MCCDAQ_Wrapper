@@ -1,0 +1,7 @@
+C:\repos\GITHUB\MCCDAQ_Wrapper\TestLoader\obj\Debug\net7.0-windows\TestLoader.csproj.AssemblyReference.cache
+C:\repos\GITHUB\MCCDAQ_Wrapper\TestLoader\obj\Debug\net7.0-windows\TestLoader.Form1.resources
+C:\repos\GITHUB\MCCDAQ_Wrapper\TestLoader\obj\Debug\net7.0-windows\TestLoader.csproj.GenerateResource.cache
+C:\repos\GITHUB\MCCDAQ_Wrapper\TestLoader\obj\Debug\net7.0-windows\TestLoader.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\GITHUB\MCCDAQ_Wrapper\TestLoader\obj\Debug\net7.0-windows\TestLoader.AssemblyInfoInputs.cache
+C:\repos\GITHUB\MCCDAQ_Wrapper\TestLoader\obj\Debug\net7.0-windows\TestLoader.AssemblyInfo.cs
+C:\repos\GITHUB\MCCDAQ_Wrapper\TestLoader\obj\Debug\net7.0-windows\TestLoader.csproj.CoreCompileInputs.cache
