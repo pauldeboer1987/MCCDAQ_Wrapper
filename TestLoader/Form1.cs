@@ -11,15 +11,15 @@ namespace TestLoader
         Assembly dll;
         public Form1()
         {
-            InitializeComponent();
-
             AppDomain currentDomain = AppDomain.CurrentDomain;
             currentDomain.AssemblyResolve += new ResolveEventHandler(LoadFromSameFolder);
+            InitializeComponent();
+
         }
 
         static Assembly LoadFromSameFolder(object sender, ResolveEventArgs args)
         {
-            string folderPath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+            string folderPath = Path.GetDirectoryName(args.RequestingAssembly.Location);
             string assemblyPath = Path.Combine(folderPath, new AssemblyName(args.Name).Name + ".dll");
             if (!File.Exists(assemblyPath)) return null;
             Assembly assembly = Assembly.LoadFrom(assemblyPath);
@@ -29,10 +29,8 @@ namespace TestLoader
         private void button1_Click(object sender, EventArgs e)
         {
 
+            dll = Assembly.LoadFile(Environment.CurrentDirectory + "\\MCCDAQ_wrapper.dll");
             Type instType = null;
-            dll = AssemblyLoadContext.Default.LoadFromAssemblyPath(Environment.CurrentDirectory + "\\MCCDAQ_wrapper.dll");
-            AssemblyName[] ReferencedAssemblies = dll.GetReferencedAssemblies();
-            Type[] types = dll.GetExportedTypes();
             foreach (Type t in dll.GetExportedTypes())
             {
                 if (t.Name == "Inst")
